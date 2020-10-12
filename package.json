@@ -3,14 +3,18 @@
     "version": "1.0.0",
     "description": "prueba creacion de proyecto node",
     "main": "index.html",
+    "repository": {
+        "type": "git",
+        "url": "git@bitbucket.org:atorob/proyecto-node.git"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "lite-server"
+        "dev": "lite-server -c config/bs-config.json"
     },
     "author": "Alex Rolando Toro Benitez",
     "license": "ISC",
     "devDependencies": {
-        "lite-server": "^2.5.4"
+        "lite-server": "^2.2.0"
     },
     "dependencies": {
         "bootstrap": "^4.5.2",
