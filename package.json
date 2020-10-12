@@ -8,13 +8,12 @@
         "url": "git@bitbucket.org:atorob/proyecto-node.git"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "lite-server -c config/bs-config.json"
+        "dev": "lite-server"
     },
     "author": "Alex Rolando Toro Benitez",
     "license": "ISC",
     "devDependencies": {
-        "lite-server": "^2.2.0"
+        "lite-server": "^2.5.4"
     },
     "dependencies": {
         "bootstrap": "^4.5.2",
