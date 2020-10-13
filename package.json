@@ -1,0 +1,23 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "prueba creacion de proyecto node",
+    "main": "index.html",
+    "repository": {
+        "type": "git",
+        "url": "git@bitbucket.org:atorob/proyecto-node.git"
+    },
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "author": "Alex Rolando Toro Benitez",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    }
+}
