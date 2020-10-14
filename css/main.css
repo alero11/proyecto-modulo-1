@@ -1,0 +1,23 @@
+.jumbotron {
+    background-color: antiquewhite;
+    color: teal;
+}
+
+.car-hotel {
+    flex: 1 300px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn-reserva {
+    width: 100%;
+}
+
+.col-md-4 {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
