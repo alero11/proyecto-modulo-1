@@ -8,13 +8,12 @@
         "url": "git@bitbucket.org:atorob/proyecto-node.git"
     },
     "scripts": {
-        "dev": "lite-server"
+        "start": "npm run lite",
+        "lite": "lite-server"
     },
     "author": "Alex Rolando Toro Benitez",
     "license": "ISC",
-    "devDependencies": {
-        "lite-server": "^2.5.4"
-    },
+    "devDependencies": {},
     "dependencies": {
         "bootstrap": "^4.5.2",
         "jquery": "^3.5.1",
